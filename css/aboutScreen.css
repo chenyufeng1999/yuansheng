@@ -1,6 +1,6 @@
 #aboutScreen{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background:url('../assets/aboutus.jpeg') no-repeat;
     background-size: cover;
     font-size: 0.3rem;
@@ -70,6 +70,7 @@
 }
 .aboutqq ul{
     font-size: 0.25rem;
+    min-height: 3rem;
 }
 .aboutqq ul li{
     width: 80%;
