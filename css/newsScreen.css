@@ -1,0 +1,112 @@
+#newsScreen{
+    width: 100%;
+    height: 100vh;
+    background:url('../assets/newbgc.jpeg');
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.swiperContain{
+    width: 6.4rem;
+    height: 4rem;
+    overflow: hidden;
+    margin: 1.5rem auto;
+    margin-bottom: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+.swiperContain .swiperImg{
+    width: 25.6rem;
+    display: flex;
+    transition: all 0.6s;
+    animation: all 2s linear;
+}
+.swiperContain .swiperImg li img{
+    width: 6.4rem;
+    height: 4rem;
+}
+.swiperContain .swiperDots{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0.1rem;
+    left: 0rem;
+}
+.swiperContain .swiperDots li{
+    width: 0.3rem;
+    height: 0.3rem;
+    border: 1px solid #efefef;
+    border-radius: 50%;
+    margin-right: 0.15rem;
+    background-color: gray;
+}
+.swiperContain .swiperDots li.active{
+    background-color: #efefef;
+}
+/* 新闻信息块 */
+.news{
+    width: 80%;
+    margin: 0.3rem auto;
+}
+.news .newsTable{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.3rem;
+    color: white;
+    padding-bottom: 0.1rem;
+}
+.news .newsTable li.active{
+    color: #ffd49f;
+    border-bottom: 0.01rem solid gray;
+}
+.news .newsPage{
+    font-size: 0.25rem;
+}
+.newsItem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 0.92rem;
+    border-bottom: 0.02rem solid rgba(255, 255, 255, 0.08);
+    font-size: 0.24rem;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.newsTitle {
+    height: 0.92rem;
+    line-height: 0.92rem;
+    padding-left: 0.11rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.newsDate {
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.35);
+    font-size: 0.2rem;
+    height: 0.92rem;
+    line-height: 0.92rem;
+    margin: 0 0.11rem;
+}
+.newsMore{
+    position: absolute;
+    left: 50%;
+    bottom: 0.8rem;
+    display: block;
+    width: 6.4rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.28rem;
+    color: #ffd49f;
+    text-align: center;
+    background: rgba(255, 212, 159, 0.1);
+    border: rgba(255, 212, 159, 0.7) solid 0.02rem;
+    border-radius: 0.04rem;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url("https://webstatic.mihoyo.com/upload/hk4e/fonts/icomoon.eot");
+    src: url("https://webstatic.mihoyo.com/upload/hk4e/fonts/icomoon.eot") format("embedded-opentype"), url("https://webstatic.mihoyo.com/upload/hk4e/fonts/icomoon.ttf") format("truetype"), url("https://webstatic.mihoyo.com/upload/hk4e/fonts/icomoon.woff") format("woff"), url("https://webstatic.mihoyo.com/upload/hk4e/fonts/icomoon.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-QQ:before {
+    /* \61是 content 的内容，是一种编码格式 */
+    content: "\61" 
+}
+
+.icon-taptap:before {
+    content: "\62"
+}
+
+.icon-weixin:before {
+    content: "\63"
+}
+
+.icon-miyoushe:before {
+    content: "\64"
+}
+
+.icon-weibo:before {
+    content: "\65"
+}
+
+.icon-uniE900:before {
+    content: "\66"
+}
+
+.icon-bilibili:before {
+    content: "\67"
+}

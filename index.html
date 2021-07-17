@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>《原神》官网-踏入充满冒险的神奇世界</title>
+    <meta data-n-head="ssr" data-hid="description" name="description" content="《原神》1.6版本「盛夏！海岛？大冒险！」正式上线。《原神》是由米哈游自研的一款全新开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻想世界。在这广阔的世界中，你可以踏遍七国，邂逅性格各异、能力独特的同伴，与他们一同对抗强敌，踏上寻回血亲之路；也可以不带目的地漫游，沉浸在充满生机的世界里，让好奇心驱使自己发掘各个角落的奥秘……直到你与分离的血亲重聚，在终点见证一切事物的沉淀。">
+    <meta data-n-head="ssr" data-hid="Keywords" name="Keywords" content="原神, 原神新版本, 原神电脑版, 原神1.6版本, 原神官网, 原神PC官网, 原神PC端, 原神PC端官网, 原神下载, 原神攻略, 原神PC版, 原神PC下载, 原神手游, 原神ios, 原神官服, 原神游戏, 原神安卓, 原神米哈游, 原神手游官网, 原神官方, 原神手游ios, 原神漫画, 原神开放世界, yuanshen官网, 原神可莉, 原神万叶, 原神芭芭拉, 原神琴, 原神枫原万叶, 原神海岛, 原神新剧情, 原神新衣装, 原神新活动, 原神魔偶剑鬼">
+    <link data-n-head="ssr" rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/newsScreen.css" />
+    <link rel="stylesheet" href="css/cityScreen.css" />
+    <link rel="stylesheet" href="css/aboutScreen.css" />
+    <link rel="stylesheet" href="css/footerScreen.css" />
+    <link rel="stylesheet" href="css/font.css" />
+  </head>
+  <body>
+    <!-- 整个页面区域 -->
+    <div class="main">
+      <!-- 菜单按钮 -->
+      <div class="menu"></div>
+      <!-- 顶部导航栏 -->
+      <div class="header">
+        <h1 class="logo"></h1>
+        
+      </div>
+      <!-- 遮罩层 -->
+      <div id="zheping">
+        <video
+          src="https://webstatic.mihoyo.com/upload/static-resource/2021/06/04/d31c1c7690ba295b33a4f41ec90d0581_7917311176720313793.mp4"
+          width="80%"
+          id="myvideo"
+          controls="control"
+        ></video>
+        <button class="closeBtn"></button>
+      </div>
+      <!-- 菜单隐藏区域 -->
+      <div class="hanbaomenu">
+        <div class="content">
+          <div class="close">
+            <button class="closeBtn"></button>
+          </div>
+          <ul class="menuList">
+            <li class="active"><a href="javascript:void(0)">首页</a></li>
+            <li><a href="javascript:void(0)">新闻</a></li>
+            <li><a href="javascript:void(0)">角色</a></li>
+            <li><a href="javascript:void(0)">世界</a></li>
+            <li><a href="javascript:void(0)">漫画</a></li>
+            <li><a href="javascript:void(0)">社区</a></li>
+          </ul>
+          <p>
+            <span class="login"></span>
+            <span>登录</span>
+          </p>
+        </div>
+      </div>
+      <!-- 首页第一屏区域 -->
+      <div id="firstScreen">
+        <video
+          src="assets/bgvideo.mp4"
+          class="video"
+          autoplay
+          loop
+          muted
+        ></video>
+        <!-- logo区域 -->
+        <h1 class="logo">
+          <img src="assets/logo1.png" alt="logo图" />
+        </h1>
+        <!-- 适龄提示 -->
+        <div class="ageTip"></div>
+        <!-- 所有信息内容区域 -->
+        <div class="posterMain">
+          <!-- 视频播放 -->
+          <div class="playBtnContain">
+            <button class="playBtn pl">播放</button>
+          </div>
+          <!-- 游戏下载 -->
+          <div class="download">
+            <a href="#"></a>
+            <a href="#"></a>
+          </div>
+          <!-- 信息板块 -->
+          <div class="message">
+            <p>开发者名称：上海米哈游天命科技有限公司</p>
+            <p class="banben">
+              <span>当前版本：1.6.0</span>
+              <span>更新时间：2021.6.9</span>
+            </p>
+            <p class="textms">
+              <a href="#">隐私协议</a>
+              <a href="#">用户权限</a>
+            </p>
+          </div>
+          <div class="pd">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 新闻 -->
+      <div id="newsScreen">
+        <!-- 新闻咨询标题 -->
+        <h2 class="title">
+          <span>新闻咨询</span>
+        </h2>
+        <!-- 轮播图区域 -->
+        <div class="swiperContain">
+          <!-- 轮播的图片 -->
+          <ul class="swiperImg">
+            <li><img src="assets/swiperImg1.jpeg" alt="" /></li>
+            <li><img src="assets/swiperImg2.jpeg" alt="" /></li>
+            <li><img src="assets/swiperImg3.jpeg" alt="" /></li>
+            <li><img src="assets/swiperImg4.jpeg" alt="" /></li>
+          </ul>
+          <!-- 轮播图对应的小圆点 -->
+          <ul class="swiperDots">
+            <li data-id="0" class="swiperDot active"></li>
+            <li data-id="1" class="swiperDot"></li>
+            <li data-id="2" class="swiperDot"></li>
+            <li data-id="3" class="swiperDot"></li>
+          </ul>
+        </div>
+        <div class="news">
+          <ul class="newsTable">
+            <li data-id="0" class="newsTableItem active">最新</li>
+            <li data-id="1" class="newsTableItem">新闻</li>
+            <li data-id="2" class="newsTableItem">公告</li>
+            <li data-id="3" class="newsTableItem">活动</li>
+          </ul>
+          <ul class="newsPage"></ul>
+          <a href="" class="newsMore">更多咨询</a>
+        </div>
+      </div>
+
+      <!-- 城市 -->
+      <div id="cityScreen">
+        <p>蒙德城</p>
+        <p>璃月港</p>
+        <p>敬请期待</p>
+      </div>
+
+      <!-- 关于我们 -->
+      <div id="aboutScreen">
+        <h2 class="title">
+          <span>关于我们</span>
+        </h2>
+        <div class="wx">
+          <p>
+            <span class="icon-weixin"></span>
+            关注原神
+            <span class="wxh">微信公众号</span>
+          </p>
+          <img src="assets/weixin.png" alt="微信" />
+          <span class="sm">扫码关注我们</span>
+        </div>
+        <ul class="socialList">
+          <li>
+            <a href="https://weibo.com/ysmihoyo" target="_blank">
+              <span class="icon-weibo"></span>
+              关注原神
+              <span>官方微博</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.taptap.com/app/168332" target="_blank">
+              <span class="icon-taptap"></span>
+              关注原神
+              <span>TapTap</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://bbs.mihoyo.com/ys/" target="_blank">
+              <span class="icon-miyoushe"></span>
+              关注原神
+              <span>官方社区</span>
+            </a>
+          </li>
+        </ul>
+        <div class="aboutqq">
+          <p class="aboutqq-a">
+            <span class="icon-QQ"></span>
+            关注原神
+            <span>官方Q群</span>
+        </p>
+        <ul>
+            <li>
+                <a href="//shang.qq.com/wpa/qunwpa?idkey=a6d0449fdfc82d9094e60237af0d155c4c6c8a9bd488b0bcc38084e293616250"
+                    target="_blank">
+                    <label>原神米游社官方群</label>
+                    <p>
+                        272031457
+                        <span>(已满)</span>
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="//shang.qq.com/wpa/qunwpa?idkey=36fc0062c930578950afe36e95ca94fa76ab74b2f5c76c40b2bc94aa14c6fb15"
+                    target="_blank">
+                    <label>原神官方玩家群13</label>
+                    <p>1065215618</p>
+                </a>
+            </li>
+            <li>
+                <a href="//shang.qq.com/wpa/qunwpa?idkey=d07954b7951315cb406ed1bac3c1d73c36f3dbb1a3a445503cf068fcc4f4a304"
+                    target="_blank"><label>原神官方玩家群12</label>
+                    <p>1060406671</p>
+                </a>
+            </li>
+            <li>
+                <a href="//shang.qq.com/wpa/qunwpa?idkey=bdaa913f263f30822e50a1da9d045ee18ba16e3a75e6290aa0e644e99ec21352"
+                    target="_blank"><label>原神官方玩家群11</label>
+                    <p>512047400</p>
+                </a>
+            </li>
+            <li>
+                <a href="//shang.qq.com/wpa/qunwpa?idkey=f094f5200f92d0c52137319ba9f33e47890250299205d2b0fbb838708f36c94b"
+                    target="_blank">
+                    <label>原神官方玩家群10</label>
+                    <p>592500429</p>
+                </a>
+            </li>
+        </ul>
+        </div>
+      </div>
+
+      <!-- 页脚 -->
+      <div id="footerScreen"></div>
+    </div>
+    <script src="js/tool.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+#aboutScreen{
+    width: 100%;
+    height: 100vh;
+    background:url('../assets/aboutus.jpeg') no-repeat;
+    background-size: cover;
+    font-size: 0.3rem;
+}
+#aboutScreen h2{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.wx{
+    width: 80%;
+    margin: 0 auto;
+    border-top: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.3rem;
+    padding: 0.2rem;
+    color: white;
+}
+.wx p{
+    width: 100%;
+}
+.wx .wxh{
+    color: #ffd49f;
+}
+.wx img{
+    width: 2rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.15rem;
+}
+.wx .sm{
+    color: rgba(255, 255, 255, 0.5);
+}
+/* icon图标样式 */
+.icon-weixin,.icon-weibo,.icon-taptap,.icon-miyoushe,.icon-QQ{
+    font-size: 0.45rem;
+    color: #ffd49f;
+}
+
+/* 社区信息 */
+.socialList{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.socialList li{
+    border-top: 0.01rem solid gray;
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+}
+.socialList li span{
+    color: #ffd49f;
+}
+.aboutqq{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    border-top: 0.01rem solid gray;
+}
+.aboutqq .aboutqq-a{
+    height: 0.8rem;
+    line-height: 0.8rem;
+}
+.aboutqq p span{
+    color: #ffd49f;
+}
+.aboutqq ul{
+    font-size: 0.25rem;
+}
+.aboutqq ul li{
+    width: 80%;
+    float: right;
+    color: rgba(255, 255, 255, 0.7);
+    line-height:  0.46rem;
+}
+.aboutqq ul li a{
+    display: flex;
+    justify-content: space-between;
+}
