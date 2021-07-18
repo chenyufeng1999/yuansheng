@@ -1,6 +1,6 @@
 #newsScreen{
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background:url('../assets/newbgc.jpeg');
     background-size: cover;
     position: relative;
